@@ -1,4 +1,4 @@
-local function API_Check()
+local function API_Check() -- bb
     if Drawing == nil then
         return "No"
     else
@@ -30,8 +30,8 @@ _G.SendNotifications = false
 _G.DefaultSettings = false   
 
 
-_G.BoxesVisible = true   
-_G.LineColor = Color3.fromRGB(255, 80, 10) 
+_G.BoxesVisible = false
+_G.LineColor = Color3.fromRGB(181, 219, 255) 
 _G.LineThickness = 1   
 _G.LineTransparency = 0.7   
 _G.SizeIncrease = 1   
