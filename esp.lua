@@ -1,4 +1,4 @@
-local function API_Check()
+local function API_Check() -- aaa
     if Drawing == nil then
         return "No"
     else
@@ -24,10 +24,10 @@ _G.DefaultSettings = false
 _G.TextColor = Color3.fromRGB(241, 192, 255)   
 _G.TextSize = 14   
 _G.Center = true   
-_G.Outline = true   -- If set to true then the text would have an outline.
-_G.OutlineColor = Color3.fromRGB(0, 0, 0)   -- The outline color of the text.
-_G.TextTransparency = 0.7   -- The transparency of the text.
-_G.TextFont = Drawing.Fonts.UI   -- The font of the text. (UI, System, Plex, Monospace) 
+_G.Outline = true   
+_G.OutlineColor = Color3.fromRGB(0, 0, 0)   
+_G.TextTransparency = 0.7   
+_G.TextFont = Drawing.Fonts.UI  
 
 
 
@@ -127,7 +127,7 @@ end
 if _G.DefaultSettings == true then
     _G.TeamCheck = true
     _G.ESPVisible = true
-    _G.TextColor = Color3.fromRGB(40, 90, 255)
+    _G.TextColor = Color3.fromRGB(0,255,0)
     _G.TextSize = 14
     _G.Center = true
     _G.Outline = false
