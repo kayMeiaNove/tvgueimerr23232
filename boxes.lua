@@ -284,19 +284,6 @@ UserInputService.TextBoxFocusReleased:Connect(function()
     Typing = false
 end)
 
-UserInputService.InputBegan:Connect(function(Input)
-    if Input.KeyCode == _G.DisableKey and Typing == false then
-        _G.BoxesVisible = not _G.BoxesVisible
-        
-        if _G.SendNotifications == true then
-            game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Exunys Developer";
-                Text = "The boxes' visibility is now set to "..tostring(_G.BoxesVisible)..".";
-                Duration = 5;
-            })
-        end
-    end
-end)
 
 local Success, Errored = pcall(function()
     CreateBoxes()
