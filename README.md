@@ -4,4 +4,5 @@ script para o jogos de RP do Roblox, se divirta matando todo mundo! <3
 
 
 
-![Screenshot_3](https://user-images.githubusercontent.com/85133224/233482850-92d4e10e-6aec-4a1a-897c-2e3df0b7afbe.png)
+
+![kayhub](https://user-images.githubusercontent.com/85133224/233494514-e68893c3-8d12-421e-b04f-8693f7d0fc27.png)
