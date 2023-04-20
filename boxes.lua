@@ -31,7 +31,7 @@ _G.DefaultSettings = false
 
 
 _G.BoxesVisible = false
-_G.LineColor = Color3.fromRGB(181, 219, 255) 
+_G.LineColor = Color3.fromRGB(255,105,87) 
 _G.LineThickness = 1   
 _G.LineTransparency = 0.7   
 _G.SizeIncrease = 1   
@@ -269,7 +269,7 @@ end
 if _G.DefaultSettings == true then
     _G.TeamCheck = false
     _G.BoxesVisible = true
-    _G.LineColor = Color3.fromRGB(40, 90, 255)
+    _G.LineColor = Color3.fromRGB(255,105,87)
     _G.LineThickness = 1
     _G.LineTransparency = 0.5
     _G.SizeIncrease = 1.5
