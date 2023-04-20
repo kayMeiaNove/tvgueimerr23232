@@ -30,7 +30,7 @@ local Typing = false
 _G.SendNotifications = true  
 _G.DefaultSettings = false   
 
-
+_G.TracersVisible = false
 _G.FromMouse = false   
 _G.FromCenter = false   
 _G.FromBottom = true   
