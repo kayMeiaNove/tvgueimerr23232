@@ -1,4 +1,4 @@
-#KayHub
+# KayHub
 
 script para o jogos de RP do Roblox, se divirta matando todo mundo! <3
 
